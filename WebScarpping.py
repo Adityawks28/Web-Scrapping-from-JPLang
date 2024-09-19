@@ -7,7 +7,7 @@ import csv
 URL = [f"https://jplang.tufs.ac.jp/en/nw/{i}/{i}.html" for i in range(1, 29)]
 
 # Open the CSV file to write the scraped data
-with open('/Users/adityawirayuthakayasimto/Desktop/Japanese_vocabulary_shokyuu.csv', mode='w', newline='', encoding='utf-8') as file:
+with open('', mode='w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(["Word", "Kanji", "Translation"])  # Write header row
 
